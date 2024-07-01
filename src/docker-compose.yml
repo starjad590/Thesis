@@ -1,0 +1,28 @@
+name: thesis-cloud
+volumes:
+    thesis_mssql:
+networks:
+    thesis_net:
+services:
+    sqlserver:
+        container_name: thesis-sql
+        image: mcr.microsoft.com/mssql/server:2022-latest
+        restart: always
+        ports:
+            - 7999:1433
+        volumes:
+            - thesis_mssql:/var/opt/mssql
+            - ./sql/mssql-backups:/var/opt/backup
+        environment:
+            - ACCEPT_EULA=Y
+            - SA_PASSWORD=password1!
+        networks:
+            - thesis_net
+    redis:
+        container_name: thesis-redis
+        image: redis
+        restart: always
+        ports:
+            - 6389:6379
+        networks:
+            - thesis_net

@@ -1,0 +1,45 @@
+D:\dndMicroservices\New Stuff\WebApplication1\Application\bin\Debug\net8.0\Application.deps.json
+D:\dndMicroservices\New Stuff\WebApplication1\Application\bin\Debug\net8.0\Application.dll
+D:\dndMicroservices\New Stuff\WebApplication1\Application\bin\Debug\net8.0\Application.pdb
+D:\dndMicroservices\New Stuff\WebApplication1\Application\bin\Debug\net8.0\Domain.dll
+D:\dndMicroservices\New Stuff\WebApplication1\Application\bin\Debug\net8.0\Domain.pdb
+D:\dndMicroservices\New Stuff\WebApplication1\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+D:\dndMicroservices\New Stuff\WebApplication1\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\dndMicroservices\New Stuff\WebApplication1\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+D:\dndMicroservices\New Stuff\WebApplication1\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+D:\dndMicroservices\New Stuff\WebApplication1\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+D:\dndMicroservices\New Stuff\WebApplication1\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+D:\dndMicroservices\New Stuff\WebApplication1\Application\obj\Debug\net8.0\Application.dll
+D:\dndMicroservices\New Stuff\WebApplication1\Application\obj\Debug\net8.0\refint\Application.dll
+D:\dndMicroservices\New Stuff\WebApplication1\Application\obj\Debug\net8.0\Application.pdb
+D:\dndMicroservices\New Stuff\WebApplication1\Application\obj\Debug\net8.0\ref\Application.dll
+D:\dndMicroservices\New Stuff\Thesis\src\Application\bin\Debug\net8.0\Application.deps.json
+D:\dndMicroservices\New Stuff\Thesis\src\Application\bin\Debug\net8.0\Application.dll
+D:\dndMicroservices\New Stuff\Thesis\src\Application\bin\Debug\net8.0\Application.pdb
+D:\dndMicroservices\New Stuff\Thesis\src\Application\bin\Debug\net8.0\Domain.dll
+D:\dndMicroservices\New Stuff\Thesis\src\Application\bin\Debug\net8.0\Domain.pdb
+D:\dndMicroservices\New Stuff\Thesis\src\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+D:\dndMicroservices\New Stuff\Thesis\src\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\dndMicroservices\New Stuff\Thesis\src\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+D:\dndMicroservices\New Stuff\Thesis\src\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+D:\dndMicroservices\New Stuff\Thesis\src\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+D:\dndMicroservices\New Stuff\Thesis\src\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+D:\dndMicroservices\New Stuff\Thesis\src\Application\obj\Debug\net8.0\Application.dll
+D:\dndMicroservices\New Stuff\Thesis\src\Application\obj\Debug\net8.0\refint\Application.dll
+D:\dndMicroservices\New Stuff\Thesis\src\Application\obj\Debug\net8.0\Application.pdb
+D:\dndMicroservices\New Stuff\Thesis\src\Application\obj\Debug\net8.0\ref\Application.dll
+D:\dndMicroservices\Thesis\src\Application\bin\Debug\net8.0\Application.deps.json
+D:\dndMicroservices\Thesis\src\Application\bin\Debug\net8.0\Application.dll
+D:\dndMicroservices\Thesis\src\Application\bin\Debug\net8.0\Application.pdb
+D:\dndMicroservices\Thesis\src\Application\bin\Debug\net8.0\Domain.dll
+D:\dndMicroservices\Thesis\src\Application\bin\Debug\net8.0\Domain.pdb
+D:\dndMicroservices\Thesis\src\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+D:\dndMicroservices\Thesis\src\Application\obj\Debug\net8.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\dndMicroservices\Thesis\src\Application\obj\Debug\net8.0\Application.AssemblyInfoInputs.cache
+D:\dndMicroservices\Thesis\src\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
+D:\dndMicroservices\Thesis\src\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
+D:\dndMicroservices\Thesis\src\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date
+D:\dndMicroservices\Thesis\src\Application\obj\Debug\net8.0\Application.dll
+D:\dndMicroservices\Thesis\src\Application\obj\Debug\net8.0\refint\Application.dll
+D:\dndMicroservices\Thesis\src\Application\obj\Debug\net8.0\Application.pdb
+D:\dndMicroservices\Thesis\src\Application\obj\Debug\net8.0\ref\Application.dll

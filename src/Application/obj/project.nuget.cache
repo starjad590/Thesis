@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "aMcUfKnaLfqII8w6TFuXmTfo5K/+28NG2QFU3/fHPr9TUaFSA/N2WuYf7m1Jw9ldjAV/Arxiz9mCEQySPXCCxQ==",
+  "success": true,
+  "projectFilePath": "D:\\dndMicroservices\\Thesis\\src\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jorda\\.nuget\\packages\\fluentresults\\3.16.0\\fluentresults.3.16.0.nupkg.sha512",
+    "C:\\Users\\jorda\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
+    "C:\\Users\\jorda\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.2\\fluentvalidation.dependencyinjectionextensions.11.9.2.nupkg.sha512",
+    "C:\\Users\\jorda\\.nuget\\packages\\mediatr\\12.3.0\\mediatr.12.3.0.nupkg.sha512",
+    "C:\\Users\\jorda\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\jorda\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.extensions.logging.abstractions\\2.1.1\\microsoft.extensions.logging.abstractions.2.1.1.nupkg.sha512",
+    "C:\\Users\\jorda\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}

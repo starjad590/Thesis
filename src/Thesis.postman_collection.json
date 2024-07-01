@@ -1,0 +1,886 @@
+{
+	"info": {
+		"_postman_id": "e643857a-5034-4b9c-b59e-b119ba2ee3df",
+		"name": "Thesis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8497986"
+	},
+	"item": [
+		{
+			"name": "Computer",
+			"item": [
+				{
+					"name": "Commands",
+					"item": [
+						{
+							"name": "Add",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"graphicsCardId\": \"28326bba-d65a-4395-8d28-5c8b0e18615f\",\r\n  \"powerSupplyId\": \"a30e0ab1-e33a-41a6-bd93-d4a69476a1ee\",\r\n  \"processorId\": \"9a1c9995-e12d-4a55-a8b3-a431968a4686\",\r\n  \"ramId\": \"be52e934-ff9d-4146-97d6-726869d58698\",\r\n  \"storageId\": \"9adf21a6-806b-4f85-ae0f-fad888732e01\",\r\n  \"weightInGrams\": 8100,\r\n  \"usB_2\": 4,\r\n  \"usB_3\": 2\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7233/api/v1/computer",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7233",
+									"path": [
+										"api",
+										"v1",
+										"computer"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "\r\n\r\n{\r\n  \"id\": \"c902ead7-e131-4628-bf82-bc638dc0711b\",\r\n  \"ramId\": \"51c3dc7a-97de-4cdf-b6d7-db8e658d0f9e\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7233/api/v1/computer",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7233",
+									"path": [
+										"api",
+										"v1",
+										"computer"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7233/api/v1/computer/c902ead7-e131-4628-bf82-bc638dc0711b",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7233",
+									"path": [
+										"api",
+										"v1",
+										"computer",
+										"c902ead7-e131-4628-bf82-bc638dc0711b"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Queries",
+					"item": [
+						{
+							"name": "GetById",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7233/api/v1/computer?Id=c902ead7-e131-4628-bf82-bc638dc0711b",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7233",
+									"path": [
+										"api",
+										"v1",
+										"computer"
+									],
+									"query": [
+										{
+											"key": "Id",
+											"value": "c902ead7-e131-4628-bf82-bc638dc0711b"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetAll",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7233/api/v1/computer/all",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7233",
+									"path": [
+										"api",
+										"v1",
+										"computer",
+										"all"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "GraphicsCards",
+			"item": [
+				{
+					"name": "Commands",
+					"item": [
+						{
+							"name": "Add",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"make\": \"NVIDIA GeForce\",\r\n  \"model\": \"GTX\",\r\n  \"version\": \"770\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7233/api/v1/graphicsCard",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7233",
+									"path": [
+										"api",
+										"v1",
+										"graphicsCard"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"id\": \"1021a5ac-ddc5-433f-9354-e607992dc0ec\",\r\n  \"make\": \"Radeon\",\r\n  \"model\": \"RX\",\r\n  \"version\": \"480\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7233/api/v1/graphicsCard",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7233",
+									"path": [
+										"api",
+										"v1",
+										"graphicsCard"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7233/api/v1/graphicsCard/1021a5ac-ddc5-433f-9354-e607992dc0ec",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7233",
+									"path": [
+										"api",
+										"v1",
+										"graphicsCard",
+										"1021a5ac-ddc5-433f-9354-e607992dc0ec"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Queries",
+					"item": [
+						{
+							"name": "GetById",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7233/api/v1/graphicsCard?Id=1021a5ac-ddc5-433f-9354-e607992dc0ec",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7233",
+									"path": [
+										"api",
+										"v1",
+										"graphicsCard"
+									],
+									"query": [
+										{
+											"key": "Id",
+											"value": "1021a5ac-ddc5-433f-9354-e607992dc0ec"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetAll",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7233/api/v1/graphicsCard/all",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7233",
+									"path": [
+										"api",
+										"v1",
+										"graphicsCard",
+										"all"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "PowerSupplies",
+			"item": [
+				{
+					"name": "Commands",
+					"item": [
+						{
+							"name": "Add",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"amount\": 500\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7233/api/v1/powerSupply",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7233",
+									"path": [
+										"api",
+										"v1",
+										"powerSupply"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"id\": \"75ccdda5-4656-48cb-8e6b-3fd4dc06f3d9\",\r\n  \"amount\": 1000\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7233/api/v1/powerSupply",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7233",
+									"path": [
+										"api",
+										"v1",
+										"powerSupply"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7233/api/v1/powerSupply/75ccdda5-4656-48cb-8e6b-3fd4dc06f3d9",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7233",
+									"path": [
+										"api",
+										"v1",
+										"powerSupply",
+										"75ccdda5-4656-48cb-8e6b-3fd4dc06f3d9"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Queries",
+					"item": [
+						{
+							"name": "GetById",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7233/api/v1/powerSupply?Id=75ccdda5-4656-48cb-8e6b-3fd4dc06f3d9",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7233",
+									"path": [
+										"api",
+										"v1",
+										"powerSupply"
+									],
+									"query": [
+										{
+											"key": "Id",
+											"value": "75ccdda5-4656-48cb-8e6b-3fd4dc06f3d9"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetAll",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7233/api/v1/powerSupply/all",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7233",
+									"path": [
+										"api",
+										"v1",
+										"powerSupply",
+										"all"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Processors",
+			"item": [
+				{
+					"name": "Commands",
+					"item": [
+						{
+							"name": "Add",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"make\": \"Intel\",\r\n  \"model\": \"Celeron\",\r\n  \"version\": \"N3050\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7233/api/v1/processor",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7233",
+									"path": [
+										"api",
+										"v1",
+										"processor"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"id\": \"86143b3a-e42d-46b3-b2ef-3bd6ed5dd2ed\",\r\n  \"model\": \"Core\",\r\n  \"version\": \"I5-6400\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7233/api/v1/processor",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7233",
+									"path": [
+										"api",
+										"v1",
+										"processor"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7233/api/v1/processor/86143b3a-e42d-46b3-b2ef-3bd6ed5dd2ed",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7233",
+									"path": [
+										"api",
+										"v1",
+										"processor",
+										"86143b3a-e42d-46b3-b2ef-3bd6ed5dd2ed"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Queries",
+					"item": [
+						{
+							"name": "GetById",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7233/api/v1/processor?Id=86143b3a-e42d-46b3-b2ef-3bd6ed5dd2ed",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7233",
+									"path": [
+										"api",
+										"v1",
+										"processor"
+									],
+									"query": [
+										{
+											"key": "Id",
+											"value": "86143b3a-e42d-46b3-b2ef-3bd6ed5dd2ed"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetAll",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7233/api/v1/processor/all",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7233",
+									"path": [
+										"api",
+										"v1",
+										"processor",
+										"all"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "RAM",
+			"item": [
+				{
+					"name": "Commands",
+					"item": [
+						{
+							"name": "Add",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"amount\": 16,\r\n  \"unit\": \"GB\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7233/api/v1/ram",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7233",
+									"path": [
+										"api",
+										"v1",
+										"ram"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"id\": \"9d14d1e7-7671-4004-8952-2a771eab89ef\",\r\n  \"amount\": 512,\r\n  \"unit\": \"MB\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7233/api/v1/ram",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7233",
+									"path": [
+										"api",
+										"v1",
+										"ram"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7233/api/v1/ram/9d14d1e7-7671-4004-8952-2a771eab89ef",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7233",
+									"path": [
+										"api",
+										"v1",
+										"ram",
+										"9d14d1e7-7671-4004-8952-2a771eab89ef"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Queries",
+					"item": [
+						{
+							"name": "GetById",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7233/api/v1/ram?Id=9d14d1e7-7671-4004-8952-2a771eab89ef",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7233",
+									"path": [
+										"api",
+										"v1",
+										"ram"
+									],
+									"query": [
+										{
+											"key": "Id",
+											"value": "9d14d1e7-7671-4004-8952-2a771eab89ef"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetAll",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7233/api/v1/ram/all",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7233",
+									"path": [
+										"api",
+										"v1",
+										"ram",
+										"all"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Storage",
+			"item": [
+				{
+					"name": "Commands",
+					"item": [
+						{
+							"name": "Add",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"amount\": 1,\r\n  \"unit\": \"TB\",\r\n  \"type\": \"SSD\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7233/api/v1/storage",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7233",
+									"path": [
+										"api",
+										"v1",
+										"storage"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update",
+							"request": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"id\": \"8ded387b-41e9-4dc0-bdc1-ed9b6d85dfdb\",\r\n  \"amount\": 512,\r\n  \"unit\": \"MB\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://localhost:7233/api/v1/storage",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7233",
+									"path": [
+										"api",
+										"v1",
+										"storage"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7233/api/v1/storage/8ded387b-41e9-4dc0-bdc1-ed9b6d85dfdb",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7233",
+									"path": [
+										"api",
+										"v1",
+										"storage",
+										"8ded387b-41e9-4dc0-bdc1-ed9b6d85dfdb"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Queries",
+					"item": [
+						{
+							"name": "GetById",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7233/api/v1/storage?Id=8ded387b-41e9-4dc0-bdc1-ed9b6d85dfdb",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7233",
+									"path": [
+										"api",
+										"v1",
+										"storage"
+									],
+									"query": [
+										{
+											"key": "Id",
+											"value": "8ded387b-41e9-4dc0-bdc1-ed9b6d85dfdb"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "GetAll",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://localhost:7233/api/v1/storage/all",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "7233",
+									"path": [
+										"api",
+										"v1",
+										"storage",
+										"all"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}

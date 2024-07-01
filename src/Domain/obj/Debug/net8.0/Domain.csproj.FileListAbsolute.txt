@@ -1,0 +1,36 @@
+D:\dndMicroservices\New Stuff\WebApplication1\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\dndMicroservices\New Stuff\WebApplication1\Domain\bin\Debug\net8.0\Domain.dll
+D:\dndMicroservices\New Stuff\WebApplication1\Domain\bin\Debug\net8.0\Domain.pdb
+D:\dndMicroservices\New Stuff\WebApplication1\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\dndMicroservices\New Stuff\WebApplication1\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\dndMicroservices\New Stuff\WebApplication1\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\dndMicroservices\New Stuff\WebApplication1\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\dndMicroservices\New Stuff\WebApplication1\Domain\obj\Debug\net8.0\Domain.dll
+D:\dndMicroservices\New Stuff\WebApplication1\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\dndMicroservices\New Stuff\WebApplication1\Domain\obj\Debug\net8.0\Domain.pdb
+D:\dndMicroservices\New Stuff\WebApplication1\Domain\obj\Debug\net8.0\ref\Domain.dll
+D:\dndMicroservices\New Stuff\WebApplication1\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+D:\dndMicroservices\New Stuff\Thesis\src\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\dndMicroservices\New Stuff\Thesis\src\Domain\bin\Debug\net8.0\Domain.dll
+D:\dndMicroservices\New Stuff\Thesis\src\Domain\bin\Debug\net8.0\Domain.pdb
+D:\dndMicroservices\New Stuff\Thesis\src\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+D:\dndMicroservices\New Stuff\Thesis\src\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\dndMicroservices\New Stuff\Thesis\src\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\dndMicroservices\New Stuff\Thesis\src\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\dndMicroservices\New Stuff\Thesis\src\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\dndMicroservices\New Stuff\Thesis\src\Domain\obj\Debug\net8.0\Domain.dll
+D:\dndMicroservices\New Stuff\Thesis\src\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\dndMicroservices\New Stuff\Thesis\src\Domain\obj\Debug\net8.0\Domain.pdb
+D:\dndMicroservices\New Stuff\Thesis\src\Domain\obj\Debug\net8.0\ref\Domain.dll
+D:\dndMicroservices\Thesis\src\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\dndMicroservices\Thesis\src\Domain\bin\Debug\net8.0\Domain.dll
+D:\dndMicroservices\Thesis\src\Domain\bin\Debug\net8.0\Domain.pdb
+D:\dndMicroservices\Thesis\src\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+D:\dndMicroservices\Thesis\src\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\dndMicroservices\Thesis\src\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\dndMicroservices\Thesis\src\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\dndMicroservices\Thesis\src\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\dndMicroservices\Thesis\src\Domain\obj\Debug\net8.0\Domain.dll
+D:\dndMicroservices\Thesis\src\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\dndMicroservices\Thesis\src\Domain\obj\Debug\net8.0\Domain.pdb
+D:\dndMicroservices\Thesis\src\Domain\obj\Debug\net8.0\ref\Domain.dll
