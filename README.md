@@ -6,4 +6,4 @@ I enjoy working in Domain driven development and Clean architecture, although th
 
 I use entity framework to access the database and fluent results as the return of the endpoints.
 
-I opted for sql server simply because i already had one set up in my own docker container
+I opted for sql server simply because I already had one set up in my own docker container
