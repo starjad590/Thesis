@@ -1,0 +1,14 @@
+<section id="ram">
+  <header>
+    <h2>RAM</h2>
+    <menu>
+      <button (click)="onClick()">Add RAM</button>
+    </menu>
+  </header>
+
+  <ul>
+    @for (item of ram; track item.id) {
+      <app-ramItem [ram]="item" />
+    }
+  </ul>
+</section>

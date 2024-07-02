@@ -1,0 +1,19 @@
+@if (isEdit){
+<app-editGraphicsCardItem
+  [id]="graphicsCard.id"
+  [enteredMake]="graphicsCard.make"
+  [enteredModel]="graphicsCard.model"
+  [enteredVersion]="graphicsCard.version"
+  (cancel)="onCancelEditGraphicsCard()" 
+  (update)="onUpdate($event)"
+/>
+}
+
+<article>
+  <p>Make : {{ graphicsCard.make }}</p>
+  <p>Model : {{ graphicsCard.model }}</p>
+  <p>Version : {{ graphicsCard.version }}</p>
+  <p class="actions">
+    <button (click)="onClick()">Edit</button>
+  </p>
+</article>

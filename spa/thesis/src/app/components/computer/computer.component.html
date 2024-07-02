@@ -1,0 +1,18 @@
+@if (isAddingComputer){
+  <app-newComputerItem (cancel)="onCancelAddComputer()"/>
+}
+
+<section id="computers">
+  <header>
+    <h2>Computers</h2>
+    <menu>
+      <button (click)="onClick()">Add Computer</button>
+    </menu>
+  </header>
+
+  <ul>
+    @for (computer of computers; track computer.id) {
+      <app-computerItem [computer]="computer" />
+    }
+  </ul>
+</section>

@@ -1,0 +1,14 @@
+<section id="processors">
+  <header>
+    <h2>Processor</h2>
+    <menu>
+      <button (click)="onClick()">Add Processor</button>
+    </menu>
+  </header>
+
+  <ul>
+    @for (processor of processors; track processor.id) {
+      <app-processorItem [processor]="processor" />
+    }
+  </ul>
+</section>

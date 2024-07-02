@@ -1,7 +1,8 @@
 <app-header></app-header>
 
 <main>
-    <app-navigation />
+    <app-navigation (select)="onSelectButton($event)"/>
+    <app-partContainer pageName="{{ page }}" />
 </main>
 
 <router-outlet />

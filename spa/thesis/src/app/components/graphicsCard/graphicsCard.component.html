@@ -1,0 +1,18 @@
+@if (isAddingGraphicsCard){
+  <app-newGraphicsCardItem (cancel)="onCancelAddGraphicsCard()" (add)="onAdd($event)"/>
+}
+
+<section id="graphicsCard">
+  <header>
+    <h2>Graphics Cards</h2>
+    <menu>
+      <button (click)="onClick()">Add Graphics Card</button>
+    </menu>
+  </header>
+
+  <ul>
+    @for (graphicsCard of graphicsCards; track graphicsCard.id) {
+      <app-graphicsCardItem [graphicsCard]="graphicsCard" />
+    }
+  </ul>
+</section>

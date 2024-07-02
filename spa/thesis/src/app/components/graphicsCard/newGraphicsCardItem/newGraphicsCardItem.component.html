@@ -1,0 +1,25 @@
+<div class="backdrop" (click)="onCancel()"></div>
+<dialog open>
+  <h2>Add Task</h2>
+  <form (ngSubmit)="onSubmit()">
+    <p>
+      <label for="make">Make</label>
+      <input type="text" id="make" name="make" [(ngModel)]="enteredMake" />
+    </p>
+
+    <p>
+      <label for="model">Model</label>
+      <input type="text" id="model" name="model" [(ngModel)]="enteredModel" />
+    </p>
+
+    <p>
+      <label for="version">Version</label>
+      <input type="text" id="version" name="version" [(ngModel)]="enteredVersion" />
+    </p>
+
+    <p class="actions">
+      <button type="button" (click)="onCancel()">Cancel</button>
+      <button type="submit">Create</button>
+    </p>
+  </form>
+</dialog>

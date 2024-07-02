@@ -1,0 +1,14 @@
+<section id="powerSupplies">
+  <header>
+    <h2>Power Supply</h2>
+    <menu>
+      <button (click)="onClick()">Add Power Supply</button>
+    </menu>
+  </header>
+
+  <ul>
+    @for (powerSupply of powerSupplies; track powerSupply.id) {
+      <app-powerSupplyItem [powerSupply]="powerSupply" />
+    }
+  </ul>
+</section>

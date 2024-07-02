@@ -1,0 +1,14 @@
+<section id="storage">
+  <header>
+    <h2>Storage</h2>
+    <menu>
+      <button (click)="onClick()">Add Storage</button>
+    </menu>
+  </header>
+
+  <ul>
+    @for (item of storage; track item.id) {
+      <app-storageItem [storage]="item" />
+    }
+  </ul>
+</section>
